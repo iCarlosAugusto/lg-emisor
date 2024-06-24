@@ -16,6 +16,16 @@
   }
 }
 
+html {
+  font-size: 92.5%;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
